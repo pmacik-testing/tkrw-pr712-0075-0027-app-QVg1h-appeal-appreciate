@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-mkyk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0027-tenant/tkrw-pr712-0075-0027-app/devfile-sample-mkyk@sha256:a2be9001f65185da088e38f0063719c685051bcf822482a63d0643541e041dc9
         name: my-nodejs
         ports:
         - containerPort: 3001
